@@ -2,26 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5f116a06-04ce-4552-94d3-fb0201cacb47" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ReportBundle/Calculation/Calculation.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ReportBundle/Interfaces/CalculateInterface.php" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/DataBundle/Controller/DefaultController.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/DataBundle/Entity/Income.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/DataBundle/Repository/IncomeRepository.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/DataBundle/Resources/views/Default/index.html.twig" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ReportBundle/Controller/DefaultController.php" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/60337086-d1fa-40e2-a875-02ebc3d19df4.xml" afterPath="$PROJECT_DIR$/.idea/dataSources/60337086-d1fa-40e2-a875-02ebc3d19df4.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/routing.yml" afterPath="$PROJECT_DIR$/app/config/routing.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/services.yml" afterPath="$PROJECT_DIR$/app/config/services.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/DataBundle/Entity/Client.php" afterPath="$PROJECT_DIR$/src/DataBundle/Entity/Client.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/DataBundle/Entity/Deposit.php" afterPath="$PROJECT_DIR$/src/DataBundle/Entity/Deposit.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ReportBundle/Calculation/Commission.php" afterPath="$PROJECT_DIR$/src/ReportBundle/Calculation/Commission.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ReportBundle/Calculation/Income.php" afterPath="$PROJECT_DIR$/src/ReportBundle/Calculation/Income.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ReportBundle/Command/CalculationCommand.php" afterPath="$PROJECT_DIR$/src/ReportBundle/Command/CalculationCommand.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ReportBundle/Resources/config/services.yml" afterPath="$PROJECT_DIR$/src/ReportBundle/Resources/config/services.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ReportBundle/Service/CalculationService.php" afterPath="$PROJECT_DIR$/src/ReportBundle/Service/CalculationService.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <ignored path=".idea/dataSources.local.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -86,16 +68,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Commission.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ReportBundle/Calculation/Commission.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="composer.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/composer.json">
           <provider selected="true" editor-type-id="text-editor">
@@ -116,12 +88,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="306">
               <caret line="17" column="6" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="0">
+                <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                <folding />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -243,6 +228,7 @@
         <option value="$PROJECT_DIR$/src/ReportBundle/Service/CalculationService.php" />
         <option value="$PROJECT_DIR$/app/config/routing.yml" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -425,12 +411,12 @@
       <updated>1516217893148</updated>
       <workItem from="1516217896149" duration="13315000" />
       <workItem from="1516560323695" duration="158000" />
-      <workItem from="1516560498125" duration="12389000" />
+      <workItem from="1516560498125" duration="12552000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25862000" />
+    <option name="totallyTimeSpent" value="26025000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="63" y="24" width="1857" height="1056" extended-state="6" />
@@ -477,16 +463,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/ReportBundle/Command/CalculationCommand.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="702">
-          <caret line="42" column="0" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
-          <folding>
-            <element signature="e#40#84#0#PHP" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/config/security.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
@@ -875,6 +851,17 @@
         <state relative-caret-position="306">
           <caret line="17" column="6" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
