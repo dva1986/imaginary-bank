@@ -1,0 +1,4 @@
+services:
+    report.calculation:
+        class: ReportBundle\Service\CalculationService
+        arguments: ["@service_container"]
