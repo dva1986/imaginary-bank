@@ -22,6 +22,11 @@ class Client
     private $id;
 
     /**
+     * @ORM\Column(name="identification_number", type="string", length=12, options={"fixed" = true})
+     */
+    private $identificationNumber;
+
+    /**
      * @var string
      *
      * @ORM\Column(name="first_name", type="string", length=255)
@@ -58,6 +63,26 @@ class Client
     public function getId()
     {
         return $this->id;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getIdentificationNumber()
+    {
+        return $this->identificationNumber;
+    }
+
+    /**
+     * @param mixed $identificationNumber
+     *
+     * @return Client
+     */
+    public function setIdentificationNumber($identificationNumber)
+    {
+        $this->identificationNumber = $identificationNumber;
+
+        return $this;
     }
 
     /**

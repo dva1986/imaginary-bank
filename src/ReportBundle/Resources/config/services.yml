@@ -1,4 +1,4 @@
 services:
-    report.calculation:
+    report.accrual:
         class: ReportBundle\Service\CalculationService
         arguments: ["@service_container"]

@@ -30,7 +30,7 @@ class Deposit
     /**
      * @var string
      *
-     * @ORM\Column(name="interest", type="decimal", precision=4, scale=2)
+     * @ORM\Column(name="interest", type="decimal", precision=3, scale=2)
      */
     private $interest;
 
@@ -48,6 +48,20 @@ class Deposit
      */
     private $opened;
 
+    /**
+     * @var string
+     *
+     * @ORM\Column(name="balance", type="decimal", precision=10, scale=2, nullable=true)
+     */
+    private $balance;
+
+    /**
+     * Deposit constructor.
+     */
+    public function __construct()
+    {
+        $this->opened = new \DateTime();
+    }
 
     /**
      * Get id
@@ -153,5 +167,30 @@ class Deposit
     public function getOpened()
     {
         return $this->opened;
+    }
+
+    /**
+     * Set balance
+     *
+     * @param string $balance
+     *
+     * @return Deposit
+     */
+    public function setBalance($balance)
+    {
+        $this->balance = $balance;
+
+        return $this;
+    }
+
+    /**
+     * Get balance
+     *
+     * @return string
+     */
+    public function getBalance()
+    {
+        return $this->balance !== null ?
+            $this->balance : $this->amount;
     }
 }

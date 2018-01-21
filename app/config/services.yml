@@ -24,10 +24,10 @@ services:
 
     # controllers are imported separately to make sure they're public
     # and have a tag that allows actions to type-hint services
-    DataBundle\Controller\:
-        resource: '../../src/DataBundle/Controller'
-        public: true
-        tags: ['controller.service_arguments']
+#    DataBundle\Controller\:
+#        resource: '../../src/DataBundle/Controller'
+#        public: true
+#        tags: ['controller.service_arguments']
 
     ReportBundle\:
         resource: '../../src/ReportBundle/*'
@@ -37,10 +37,10 @@ services:
 
     # controllers are imported separately to make sure they're public
     # and have a tag that allows actions to type-hint services
-    ReportBundle\Controller\:
-        resource: '../../src/ReportBundle/Controller'
-        public: true
-        tags: ['controller.service_arguments']
+#    ReportBundle\Controller\:
+#        resource: '../../src/ReportBundle/Controller'
+#        public: true
+#        tags: ['controller.service_arguments']
 
     # add more services, or override services that need manual wiring
     # AppBundle\Service\ExampleService:

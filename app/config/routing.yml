@@ -1,10 +1,2 @@
-data:
-    resource: "@DataBundle/Controller/"
-    type:     annotation
-    prefix:   /
 
-report:
-    resource: "@ReportBundle/Controller/"
-    type:     annotation
-    prefix:   /
 
